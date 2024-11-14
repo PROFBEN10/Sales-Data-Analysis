@@ -6,9 +6,11 @@ This project analyzes factors influencing sales within a retail environment, inc
 
 # Objectives
 Investigate the relationship between Marketing Spend and Store Visitors.
+
 Identify key drivers of Sales to enable more accurate sales predictions.
 Key Questions
 How does Marketing Spend affect Sales?
+
 Which factors most strongly impact Sales?
 
 # Approach to Analysis
@@ -37,17 +39,36 @@ Used Excel’s Forecast tool to project Sales for the next 6 months.
 # Correlation Analysis
 ## Factor Relationship	Correlation	Interpretation
 Marketing Spend vs. Store Visitors:	-0.04	Weak, negative correlation indicating minimal relationship.
+
 Marketing Spend vs. Sales:	0.06 Weak, positive correlation suggests a limited direct impact on Sales.
+
 Discount Offered vs. Sales:	-0.05	Weak, negative correlation; discounts do not strongly drive Sales.
+
 Store Visitors vs. Sales:	-0.09	Weak, negative correlation; increased foot traffic does not directly correlate to higher Sales.
 # Seasonality Analysis
 Seasonal Sales Trends: Summer and Spring show the highest sales, with January as the peak sales month.
+
 Yearly Sales Trends: Sales increased from 2020 to 2022, with 2022 as the highest year. There was a slight drop in 2023, likely due to incomplete data up to October.
 
 # Key Insights
 Marketing Spend is the only factor showing a slight positive influence on Sales.
 Sales peak during Summer and Spring, aligning with higher marketing investments in these periods.
 Winter shows moderate sales on a lower marketing budget, while Autumn sees lower sales despite higher spending.
+Sales and Marketing Spend by Season
+
+# Seasonal Insights
+Summer: Highest sales at $256,157.17 with a marketing spend of $101,313.44.
+
+Spring: Second-highest sales at $233,820.63 with a similar marketing spend of $102,305.48.
+
+Winter: Moderate sales at $216,976.16 with lower marketing spend of $83,957.09.
+
+Autumn: Lower sales at $211,229.27, though marketing spend remains relatively high at $98,958.89.
+
+None (Off-season): Lowest sales at $67,396.69 with minimal marketing spend of $30,235.46.
+
+Insight: Sales peak in Summer and Spring, aligning with higher marketing spend during these seasons. However, Winter also demonstrates a decent return on a lower marketing budget, while Autumn shows lower sales despite substantial marketing investments.
+
 
 # Recommendations
 Increase Marketing Spend in Peak Seasons
