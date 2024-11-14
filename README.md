@@ -13,4 +13,22 @@ Identify key drivers of sales, focusing on predictive factors.
 ## Key Questions
 How does Marketing Spend affect Sales?
 Which factors most strongly impact Sales?
-![image](https://github.com/user-attachments/assets/b8fde0d0-9052-46c5-b3c9-e2473aca5bf6)
+
+# Approach to Analysis
+
+# Data Preparation Steps
+
+## Data Cleaning
+Replaced missing values with column means.
+Corrected a single negative value in Marketing Spend by removing the negative sign.
+Handle Outliers
+Addressed outliers in the Store Visitors column for accurate analysis.
+# Exploratory Data Analysis (EDA)
+Investigated sales trends by time and season to identify peak periods.
+## Correlation Analysis
+Analyzed relationships between Marketing Spend, Store Visitors, Discount Offered, and Sales.
+## Regression Model
+Built a regression model with Marketing Spend as the predictor for Sales, as it was the only factor with a positive correlation.
+## Sales Forecast
+Used Excel’s Forecast tool to project sales for the next 6 months.
+
